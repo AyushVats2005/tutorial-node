@@ -1,4 +1,0 @@
-npm init -y to create package.json file in terminal
-
-npm i loadash - by putting it in terminal a dependevy is added with a 
-new node_modules file with loadash in it

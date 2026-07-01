@@ -1,0 +1,33 @@
+npm init -y to create package.json file in terminal
+
+npm i lodash - by putting it in terminal a dependecy is added with a 
+new node_modules file with loadash in it
+
+By installation of dependecy lodash a new package-lock.json, 
+full lodash file is created in node_modules with a lot of data in it
+
+npm i bootstrap - by putting this in terminal we get anotehr dependecy
+with more of the dependecy that are with bootstrap
+
+while pushing the whole files code in github we create a file 
+".gitignore" file and then put in it "/node_modules" and by this
+the dependencies are not pushed with the other codes in github which
+helps in uploading less data and easier management for other people 
+reviewing your code and don't have to see repetative files of dependency 
+in every folder they open. 
+
+But how will it code run if we don't push dependencies?
+Well let's say another developer clone it and then have it all in vs
+He just have to run "npm install" in their terminal. 
+And all the dependencies mentioned in the package.json will load and 
+all with work and connect like ever before.
+
+DevDependency- npm i nodemon --save-dev or npm i nodemon -D
+
+nodemon is used to update the output without regularly asking the terminal manually.
+
+to uninstal a dependency- npm uninstall bootstrap
+here bootstrap is the dependency name
+
+node 15-create-big-file.js 
+THIS MAKES A BIG FILE OF txt
